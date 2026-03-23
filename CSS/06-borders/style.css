@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+}
+
+/* Common style for all */
+p {
+    padding: 10px;
+    margin: 10px;
+}
+
+.dotted { 
+    border: 3px dotted;
+    border-width: 5px;
+    }
+
+.dashed { 
+    border: 3px dashed;
+    border-color: red;
+    }
+
+.solid { 
+    border: 3px solid;
+    border-width: 5px;
+    }
+
+.double { border: 5px double; }
+
+.groove { border: 5px groove; }
+
+.ridge { border: 5px ridge; }
+
+.inset { border: 5px inset; }
+
+.outset { border: 5px outset; }
+
+.none { border: none; }
+
+.hidden { border: hidden; }
+
+/* Different borders on each side */
+.mix {
+    border-style: dotted dashed solid double;
+    border-width: 5px;
+}
