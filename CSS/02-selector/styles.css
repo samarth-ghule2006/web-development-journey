@@ -1,0 +1,24 @@
+/* Element selector */
+p {
+    color: blue;
+}
+
+/* Class selector */
+.text {
+    font-size: 20px;
+}
+
+/* ID selector */
+#main-title {
+    color: red;
+}
+
+/* Group selector */
+h1, p {
+    font-family: Arial;
+}
+
+/* Descendant selector */
+div p {
+    color: orange;
+}
