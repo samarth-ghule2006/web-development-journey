@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+}
+
+/* 1. Text Color */
+.color {
+    color: blue;
+}
+
+/* 2. Text Alignment */
+.align {
+    text-align: center;
+}
+
+/* 3. Text Decoration */
+.decoration {
+    text-decoration: underline overline line-through;
+    text-decoration-color: aqua;
+}
+
+/* 4. Text Decoration Styles */
+.decoration-style {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+
+/* 5. Text Transformation */
+.transform {
+    text-transform: uppercase;
+}
+
+/* 6. Text Spacing */
+.spacing {
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 30px;
+}
+
+/* 7. Text Shadow */
+.shadow {
+    text-shadow: 2px 2px 5px rgb(200, 15, 15);
+}
