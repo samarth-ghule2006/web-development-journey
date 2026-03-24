@@ -1,0 +1,19 @@
+/* 1. Element selector */
+p {
+    color: blue;
+}
+
+/* 2. Class selector */
+.text {
+    color: green;
+}
+
+/* 3. ID selector */
+#para {
+    color: red;
+}
+
+/* 4. Cascade (same selector, last wins) */
+.text {
+    color: orange;
+}

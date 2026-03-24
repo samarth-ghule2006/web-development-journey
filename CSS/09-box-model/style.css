@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+}
+
+/* Box Model Example */
+.box {
+    width: 300px;
+
+    /* Content */
+    background-color: lightblue;
+
+    /* Padding (inside) */
+    padding: 20px;
+
+    /* Border */
+    border: 5px solid blue;
+
+    /* Margin (outside) */
+    margin: 30px;
+
+    /* Best practice */
+    box-sizing: border-box;
+}
