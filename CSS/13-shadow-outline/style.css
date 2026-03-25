@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+}
+
+/* Common box */
+.box {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+/* Normal Shadow */
+.shadow {
+    box-shadow: 5px 5px 10px gray;
+}
+
+/* Shadow with Spread */
+.spread {
+    box-shadow: 5px 5px 10px 5px black;
+}
+
+/* Inset Shadow */
+.inset {
+    box-shadow: inset 5px 5px 10px gray;
+}
+
+/* Outline */
+.outline {
+    border: 2px solid blue;
+    outline: 3px solid red;
+    outline-offset: 5px;
+}
