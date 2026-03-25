@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+}
+
+/* Common box */
+.box {
+    width: 200px;
+    height: 60px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Visible */
+.visible {
+    overflow: visible;
+}
+
+/* Hidden */
+.hidden {
+    overflow: hidden;
+}
+
+/* Scroll */
+.scroll {
+    overflow: scroll;
+}
+
+/* Auto */
+.auto {
+    overflow: auto;
+}
+
+/* X and Y control */
+.xy {
+    width: 200px;
+    height: 60px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
