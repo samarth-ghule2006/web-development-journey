@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+}
+
+/* Custom Bullet */
+.custom {
+    list-style-type: square;
+}
+
+/* Inside Position */
+.inside {
+    list-style-position: inside;
+}
+
+/* Navbar Style */
+.navbar {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+    background-color: lightblue;
+    padding: 5px;
+}
+
+/* Ordered List */
+.ordered {
+    list-style-type: upper-roman;
+}
