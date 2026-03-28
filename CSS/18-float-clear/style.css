@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+}
+
+/* Float Left */
+.left-img {
+    float: left;
+    margin-right: 15px;
+}
+
+/* Float Right */
+.right-img {
+    float: right;
+    margin-left: 15px;
+}
+
+/* Float None */
+.none-img {
+    float: none;
+}
+
+/* Parent float */
+.parent {
+    float: left;
+    margin-top: 20px;
+}
+
+/* Inherit float */
+.inherit-img {
+    float: inherit;
+}
+
+/* Clear float */
+.clear {
+    clear: both;
+}
