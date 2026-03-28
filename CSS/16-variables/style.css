@@ -1,0 +1,26 @@
+/* Global Variables */
+:root {
+    --main-color: rgb(153, 4, 183);
+    --bg-color: lightgray;
+    --box-padding: 20px;
+}
+
+body {
+    font-family: Arial;
+    background-color: var(--bg-color);
+}
+
+/* Using variable */
+p {
+    color: var(--main-color);
+    font-size: 18px;
+}
+
+/* Box styling */
+.box {
+    background-color: var(--main-color);
+    color: white;
+    padding: var(--box-padding);
+    width: 250px;
+    margin-top: 20px;
+}
