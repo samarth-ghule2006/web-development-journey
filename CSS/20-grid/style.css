@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+}
+
+/* Common */
+.container {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.box {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 1. Grid Intro */
+.intro {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* 2. Grid Container */
+.container-grid {
+    grid-template-columns: 100px 200px auto;
+    grid-template-rows: 80px 80px;
+}
+
+/* 3. Grid Items */
+.items {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item1 {
+    grid-column: span 2;
+}
+
+.item2 {
+    grid-row: span 2;
+}
+
+/* 4. 12 Column Layout */
+.grid-12 {
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.span-6 {
+    grid-column: span 6;
+}
+
+.span-4 {
+    grid-column: span 4;
+}
+
+/* 5. @supports */
+@supports (display: grid) {
+    .supports {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
