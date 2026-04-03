@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+}
+
+/* Common container */
+.container {
+    display: flex;
+    border: 2px solid black;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+/* Boxes */
+.box {
+    width: 60px;
+    height: 60px;
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 60px;
+}
+
+/* 1. Flex Direction */
+.direction {
+    flex-direction: row; /* try: column */
+}
+
+/* 2. Justify Content */
+.justify {
+    justify-content: space-between; /* try: center, flex-end */
+}
+
+/* 3. Align Items */
+.align {
+    height: 150px;
+    align-items: center; /* try: flex-start, flex-end */
+}
+
+/* 4. Flex Wrap */
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* 5. Gap */
+.gap {
+    gap: 20px;
+}
