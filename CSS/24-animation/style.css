@@ -1,0 +1,119 @@
+/* ========================= */
+/* GENERAL */
+/* ========================= */
+
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+section {
+    margin: 40px 0;
+}
+
+/* Common box */
+.box {
+    width: 120px;
+    height: 120px;
+    background-color: lightblue;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ========================= */
+/* 1. BASIC */
+/* ========================= */
+
+.basic {
+    animation-name: move;
+    animation-duration: 2s;
+}
+
+/* ========================= */
+/* 2. TIMING + DELAY */
+/* ========================= */
+
+.timing {
+    animation: move 2s ease-in-out 1s;
+}
+
+/* ========================= */
+/* 3. ITERATION */
+/* ========================= */
+
+.infinite {
+    animation: move 2s infinite;
+}
+
+/* ========================= */
+/* 4. DIRECTION */
+/* ========================= */
+
+.direction {
+    animation: move 2s infinite alternate;
+}
+
+/* ========================= */
+/* 5. FILL MODE */
+/* ========================= */
+
+.fill {
+    animation: move 2s forwards;
+}
+
+/* ========================= */
+/* 6. MULTIPLE EFFECT */
+/* ========================= */
+
+.combo {
+    animation: move 2s infinite alternate, colorChange 2s infinite;
+}
+
+/* ========================= */
+/* 7. REAL ANIMATION */
+/* ========================= */
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 20px auto;
+    animation: bounce 1s infinite alternate;
+}
+
+/* ========================= */
+/* KEYFRAMES */
+/* ========================= */
+
+/* Move animation */
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(200px);
+    }
+}
+
+/* Color change */
+@keyframes colorChange {
+    from {
+        background-color: lightblue;
+    }
+    to {
+        background-color: orange;
+    }
+}
+
+/* Bounce */
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(150px);
+    }
+}
