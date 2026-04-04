@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+section {
+    margin: 40px 0;
+}
+
+/* Container */ 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Common Image Box */
+.box {
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+/* Object Fit */
+.fill {
+    object-fit: fill;
+}
+
+.contain {
+    object-fit: contain;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.none {
+    object-fit: none;
+}
+
+.scale {
+    object-fit: scale-down;
+}
+
+/* Object Position */
+
+.pos-top {
+    object-fit: cover;
+    object-position: top;
+}
+
+.pos-center {
+    object-fit: cover;
+    object-position: center;
+}
+
+.pos-bottom {
+    object-fit: cover;
+    object-position: bottom;
+}
