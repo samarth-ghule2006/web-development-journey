@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+/* Common Box */
+.box {
+    width: 120px;
+    height: 120px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s;
+}
+
+/* 1. rotateX */
+.rotateX {
+    transform: rotateX(45deg);
+}
+
+/* 2. rotateY */
+.rotateY {
+    transform: rotateY(45deg);
+}
+
+/* 3. rotateZ */
+.rotateZ {
+    transform: rotateZ(45deg);
+}
+
+/* 4. translateZ */
+.translateZ {
+    transform: perspective(300px) translateZ(50px);
+}
+
+/* 5. scale3d */
+.scale3d {
+    transform: scale3d(1.2,1.2,1.5);
+}
+/* Perspective container */
+.perspective {
+    perspective: 500px;
+    margin-top: 40px
+}
+
+/* Hover 3D effect */
+.hover3d:hover {
+    transform: rotateY(180deg);
+    background-color: orange;
+}
